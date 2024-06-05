@@ -2,7 +2,6 @@ public class Solution {
     public String longestPalindrome(String s) {
         int maxLen = 0;
         String res = "";
-
         for (int i = 0; i < s.length(); i++) {
             int l=i;
             int r=i;
@@ -11,9 +10,9 @@ public class Solution {
                     res=s.substring(l,r+1);
                     maxLen=(r-l+1);
                 }
-            }
             l--;
             r++;
+            }
 
             int le=i;
             int re=i+1;
@@ -22,10 +21,9 @@ public class Solution {
                     res=s.substring(le,re+1);
                     maxLen=(re-le+1);
                 }
-            }
             le--;
             re++;
-
+            }
 
 
         }

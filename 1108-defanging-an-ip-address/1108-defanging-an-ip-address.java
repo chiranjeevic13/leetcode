@@ -4,6 +4,6 @@ class Solution {
         for (char c : address.toCharArray()){
             str.append((c == '.')? "[.]" : c );
         }
-        return str;
+        return str.toString();
     }
 }

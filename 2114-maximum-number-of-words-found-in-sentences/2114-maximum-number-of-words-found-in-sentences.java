@@ -5,6 +5,6 @@ class Solution {
         for(int i=0;i<sentences.length;i++){
             max=Math.max(max,sentences[i].split(" ").length);
         }
-    return max;
+    return max1;
  }
 }

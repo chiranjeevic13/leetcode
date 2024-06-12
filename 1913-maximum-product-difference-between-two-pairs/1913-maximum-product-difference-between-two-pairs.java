@@ -19,6 +19,6 @@ class Solution {
             }
         }
 
-        return big1 * big2* small1 * small2;        
+        return big1 * big2-small1 * small2;        
     }
 }

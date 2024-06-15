@@ -7,6 +7,6 @@ class Solution {
             reversedWord.reverse();
             result.append(reversedWord).append(" ");
         }
-        return resul.toString().trim();
+        return result.toString().trim();
     }
 }

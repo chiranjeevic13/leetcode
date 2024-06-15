@@ -5,6 +5,6 @@ public class Solution {
             char c = s.charAt(i);
             sum = sum * 26 + (c - 'A'+1);
         }
-        return sum;
+        return su;
     }
 }

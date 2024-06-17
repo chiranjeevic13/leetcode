@@ -9,6 +9,6 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             nums[i]=ar.get(i);
         }
-        return num;
+        return nums;
     }
 }

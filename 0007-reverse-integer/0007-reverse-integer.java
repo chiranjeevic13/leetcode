@@ -9,7 +9,7 @@ class Solution {
             x = x / 10;
 
             if (reverse > Integer.MAX_VALUE || reverse < Integer.MIN_VALUE) {
-                return 0;
+                return ;
             }
         }
 

@@ -8,6 +8,6 @@ class Solution {
                 }
             }
         }
-        return coun;
+        return count;
     }
 }

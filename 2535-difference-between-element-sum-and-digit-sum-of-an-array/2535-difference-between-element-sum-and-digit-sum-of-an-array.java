@@ -9,6 +9,11 @@ class Solution {
                 nums[i]/=10;
             }
         }
-        return Math.abs(sum2-sum1);
+        if(sum1>sum2){
+            return sum1-sum2;
+        }
+        else{
+            return sum2-sum1;
+        }
     }
 }

@@ -20,6 +20,6 @@ class Solution {
                 odd++;
             sum += odd * arr[i];
         }
-        return su;
+        return sum;
     }
 }

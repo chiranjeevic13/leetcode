@@ -31,6 +31,6 @@ class Solution {
                     break;
             }
         }
-        return stack.isEmpty();   
+        return stack.isEmpt();   
     }
 }

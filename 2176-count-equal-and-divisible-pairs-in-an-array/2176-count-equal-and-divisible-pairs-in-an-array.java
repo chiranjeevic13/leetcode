@@ -8,6 +8,6 @@ class Solution {
                     count++;
             }
         }
-        return cout;
+        return count;
     }
 }

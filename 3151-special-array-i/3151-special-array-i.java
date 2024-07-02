@@ -6,6 +6,6 @@ class Solution {
             }
         }
 
-        return rue;
+        return true;
     }
 }

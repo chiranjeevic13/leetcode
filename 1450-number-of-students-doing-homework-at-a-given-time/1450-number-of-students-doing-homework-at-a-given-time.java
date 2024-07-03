@@ -6,6 +6,6 @@ class Solution {
         work++;
        }
        }
-    return work;   
+    return wrk;   
     }
 }

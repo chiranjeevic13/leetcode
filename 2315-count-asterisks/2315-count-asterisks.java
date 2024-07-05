@@ -16,6 +16,6 @@ class Solution {
             default: break;
             }
         }
-        return asteriks;
+        return asterik;
     }
 }

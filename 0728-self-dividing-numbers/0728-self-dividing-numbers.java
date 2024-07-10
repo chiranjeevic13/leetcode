@@ -18,6 +18,6 @@ class Solution {
                 return false;
             n=n/10; 
         }
-        return tre;
+        return true;
     }
 }

@@ -8,6 +8,6 @@ class Solution {
                 }
             }
         }
-        return new it[]{};
+        return new int[]{};
     }
 }
